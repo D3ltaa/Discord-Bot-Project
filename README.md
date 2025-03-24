@@ -1,1 +1,1 @@
-<h1>Bots Coded in Discord.js </h1>
+<h1>Bots projects in Discord.js </h1>
