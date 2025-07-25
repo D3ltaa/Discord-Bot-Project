@@ -1,15 +1,16 @@
-const Discord = require('discord.js')
+
+require('dotenv').config();
+const Discord = require('discord.js');
 const delta = new Discord.Client({
     partials: ["CHANNEL", "MESSAGE", "REACTION", "USER", "GUILD_MEMBER"],
     intents: 32767,
-})
-const {MessageActionRow,MessageButton,} = require("discord.js");
-const prefix = '!'
+});
+const { MessageActionRow, MessageButton } = require("discord.js");
+const prefix = '!';
 const { QuickDB } = require('quick.db');
 const db = new QuickDB();
 
-
-const staffteam = 'YOUR STEAMM TEAM ROLE ID'
+const staffteam = process.env.STAFFTEAM;
 
 
 delta.on('ready', async()=> {
@@ -112,4 +113,4 @@ delta.on('interactionCreate',async (interaction)=>{
     }
 })
 
-delta.login('YOUR TOKEN')
+delta.login(process.env.TOKEN);
