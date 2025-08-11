@@ -6,7 +6,6 @@ This repository contains multiple Discord bot modules, each in its own directory
 ## Repository Structure
 - `/Ticket-with-button-main`: Support ticket bot with interactive buttons for creating and managing tickets.
 - `/Welcome-Bot`: Automated welcome bot that greets new members with custom images.
-- `/[future-module]`: Additional bots and utilities will be added here.
 
 Each directory has its own README.md explaining its contents in detail.
 
