@@ -13,7 +13,8 @@ A Discord bot that allows users to create support tickets using interactive butt
    ```
 2. **Install dependencies:**
    ```powershell
-   npm install
+   npm init
+   npm i dotenv discord.js@13 quick.db better-sqlite3
    ```
 3. **Configure environment variables:**
    - Copy the provided `.env` template or create a `.env` file in the project root:
